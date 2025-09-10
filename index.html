@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
-
 <body>
-  <!-- NAVBAR -->
+
   <nav class="navbar">
     <div class="logo">Rosa Vitória</div>
     <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
@@ -21,16 +19,21 @@
       <li><a href="#cursos">Cursos</a></li>
       <li><a href="#eventos">Eventos</a></li>
       <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
       <li><a href="#contatos">Contatos</a></li>
     </ul>
   </nav>
 
-  <!-- HEADER -->
   <header id="sobre" class="fade-in">
-    <h1>Rosa Vitória Fernandes da Silva</h1>
-    <p>Brasileira, solteira, 30/05/2007</p>
-    <p>Rua São Sebastião do Maranhão - Jardim Cecy – São Paulo – CEP: 02872-040</p>
-    <p>Telefone: (11) 94548-5294</p>
+    <div class="perfil">
+      <img src="img/rosa.jpg" alt="Foto de Rosa Vitória">
+    </div>
+    <div class="info">
+      <h1>Rosa Vitória Fernandes da Silva</h1>
+      <p>Brasileira, solteira, 30/05/2007</p>
+      <p>Rua São Sebastião do Maranhão - Jardim Cecy – São Paulo – CEP: 02872-040</p>
+      <p>Telefone: (11) 94548-5294</p>
+    </div>
   </header>
 
   <main>
@@ -116,6 +119,31 @@
       </ul>
     </section>
 
+    <!-- PROJETOS -->
+    <section id="projetos" class="fade-in">
+      <h2>Meus Projetos</h2>
+      <div class="grid-projetos">
+        <div class="card">
+          <img src="img/git.png" alt="GitHub">
+          <h3>Projeto 1</h3>
+          <p>Breve descrição do projeto.</p>
+          <a href="https://github.com/rosavitoria" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="card">
+          <img src="img/git.png" alt="GitHub">
+          <h3>Projeto 2</h3>
+          <p>Breve descrição do projeto.</p>
+          <a href="https://github.com/rosavitoria" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="card">
+          <img src="img/git.png" alt="GitHub">
+          <h3>Projeto 3</h3>
+          <p>Breve descrição do projeto.</p>
+          <a href="https://github.com/rosavitoria" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+
     <!-- CONTATOS -->
     <section id="contatos" class="fade-in">
       <h2>Contatos</h2>
@@ -139,5 +167,4 @@
     <p>&copy; 2025 - Portfólio desenvolvido por Rosa Vitória</p>
   </footer>
 </body>
-
 </html>
