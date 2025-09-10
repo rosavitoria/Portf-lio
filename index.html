@@ -2,109 +2,155 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Rosa Vitória</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Rosa Vitória</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#forma">Formação Acadêmica</a></li>
-            <li><a href="#cursos">Cursos Complementares</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        </ul>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🌸 Rosa Vitória</div>
+    <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#objetivo">Objetivo</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contatos">Contatos</a></li>
+    </ul>
+  </nav>
 
-    <header id="sobre">
-        <h1>Rosa Vitória Fernandes da Silva ✨</h1>
-        <p>Brasileira, solteira, 30/05/2007</p>
-        <p>Jardim Cecy - SP – CEP: 02872-040</p>
-        <hr>
-        <h2>Meus Projetos!</h2>
-        <p>
-            <img src="img/git.png" alt="GitHub" width="24" height="24">
-            <a href="https://github.com/rosavitoria" target="_blank">github.com/rosavitoria</a>
-        </p><hr>
-    </header> 
+  <!-- HEADER -->
+  <header id="sobre">
+    <h1>Rosa Vitória Fernandes da Silva ✨</h1>
+    <p>Brasileira, solteira, 30/05/2007</p>
+    <p>Rua São Sebastião do Maranhão - Jardim Cecy – São Paulo – CEP: 02872-040</p>
+    <p>Telefone: (11) 94548-5294</p>
+    <hr>
+  </header>
 
-    <main>
-        <section id="forma">
-            <h2>Formação Acadêmica</h2>
-            <p>Ensino Médio Técnico em Desenvolvimento de Sistemas – Cursando</p>
-            <p>E.E. Martin Egídio Damy</p> <hr>
-        </section>
-
-        <section>
-            <h2>Objetivo</h2>
-            <p>Área da Tecnologia.</p> <hr>
-        </section>
-
-        <section id="cursos">
-            <h2>Cursos Complementares</h2>
-
-            <article>
-                <h3>IOS – Instituto da Oportunidade Social</h3>
-                <p><strong>Curso:</strong> Desenvolvimento Web</p>
-                <ul>
-                    <li>HTML</li>
-                    <li>Git e Github</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Criação, estilização e interação para sites</li>
-                    <li>Soft Skills</li>
-                    <li>Projeto Integrador</li>
-                </ul>
-                <p>Conclusão: 07/2025</p>
-                <p>Carga Horária: 300 horas</p>
-            </article>
-
-            <article>
-                <h3>Curso: Suporte em T.I</h3>
-                <ul>
-                    <li>Microsoft Office</li>
-                    <li>Sistemas Operacionais</li>
-                    <li>Hardware</li>
-                    <li>Redes</li>
-                    <li>Comunicação e expressão</li>
-                    <li>Raciocínio lógico</li>
-                    <li>Soft Skills</li>
-                    <li>Projeto Integrador</li>
-                </ul>
-                <p>Conclusão: 12/2023</p>
-                <p>Carga Horária: 300 horas</p>
-            </article>
-
-            <article>
-                <h3>Fundação Bradesco</h3>
-                <p><strong>Curso:</strong> Python – básico</p>
-                <p>Conclusão: 09/2023</p>
-            </article>
-
-            <article>
-                <h3>Curso: Pacote Office</h3>
-                <p>Conclusão: 03/2023</p> <hr>
-            </article>
-        </section>
-    </main>
-
-    <section id="contatos">
-        <h2>Meus Contatos!</h2>
-        <p>
-            <img src="img/email.png" alt="Email" width="24" height="24">
-            <a href="mailto:rosavitoriafernandes@outlook.com">rosavitoriafernandes@outlook.com</a>
-        </p>
-        <p>
-            <img src="img/linkedin.png" alt="LinkedIn" width="24" height="24">
-            <a href="https://www.linkedin.com/in/rosavitoria/" target="_blank">linkedin.com/in/rosavitoria</a>
-        </p>
+  <main>
+    <!-- OBJETIVO -->
+    <section id="objetivo">
+      <h2>🎯 Objetivo</h2>
+      <p>CLT, Estágio, Aprendiz.</p>
     </section>
+    <hr>
 
-    <footer>
-        <p>Feito por Rosa Vitória ✨💖</p>
-    </footer>
+    <!-- FORMAÇÃO -->
+    <section id="formacao">
+      <h2>📚 Formação Acadêmica</h2>
+      <p>Ensino Médio - Técnico em Desenvolvimento de Sistemas – Cursando 3º Ano</p>
+      <p>E.E. Martin Egídio Damy</p>
+    </section>
+    <hr>
+
+    <!-- CURSOS -->
+    <section id="cursos">
+      <h2>💡 Cursos Complementares</h2>
+
+      <article>
+        <h3>IOS – Instituto da Oportunidade Social</h3>
+        <p><strong>Curso:</strong> Suporte em T.I</p>
+        <p><em>Conclusão: 12/2023 – 300 horas</em></p>
+        <ul>
+          <li>Microsoft Office 2016 (Word, Excel e PowerPoint)</li>
+          <li>Informática</li>
+          <li>Sistemas Operacionais</li>
+          <li>Instalações e Reparos</li>
+          <li>Plataforma Lead Dell</li>
+          <li>Empregabilidade</li>
+          <li>Comunicação e Expressão</li>
+          <li>Cálculo Matemático</li>
+          <li>Workshops Temas Transversais</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>IOS – Instituto da Oportunidade Social</h3>
+        <p><strong>Curso:</strong> Desenvolvimento Web</p>
+        <p><em>Conclusão: 07/2025 – 300 horas</em></p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git e Github</li>
+          <li>Criação, estilização e interação para sites</li>
+          <li>Soft Skills</li>
+          <li>Projeto Integrador</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Fundação Bradesco</h3>
+        <p><strong>Curso:</strong> Microsoft Office 365</p>
+        <p><em>Conclusão: 03/2023 – 5 horas</em></p>
+        <ul>
+          <li>Teams, Outlook, OneNote, OneDrive, Planner</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Fundação Bradesco</h3>
+        <p><strong>Curso:</strong> Python – Básico</p>
+        <p><em>Conclusão: 02/09/2024 – 18 horas</em></p>
+      </article>
+    </section>
+    <hr>
+
+    <!-- EVENTOS -->
+    <section id="eventos">
+      <h2>📌 Eventos e Palestras</h2>
+      <ul>
+        <li>02/06/2025 – Visita Técnica: DataPrev</li>
+        <li>09/06/2025 – Palestra: Pontes para o Futuro</li>
+        <li>10/06/2025 – Workshop: Carreira da Pessoa Desenvolvedora – TOTVS</li>
+        <li>27/06/2025 – Evento: C.O.R.E.S.</li>
+        <li>07/2025 – Palestra: Comunicação Assertiva – TOTVS</li>
+      </ul>
+    </section>
+    <hr>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <h2>🌟 Habilidades Interpessoais</h2>
+      <ul>
+        <li>Atitude positiva</li>
+        <li>Comunicação assertiva</li>
+        <li>Criatividade</li>
+        <li>Flexibilidade</li>
+        <li>Proatividade</li>
+      </ul>
+    </section>
+    <hr>
+
+    <!-- CONTATOS -->
+    <section id="contatos">
+      <h2>📞 Contatos</h2>
+      <p>
+        <img src="img/email.png" alt="Email" width="20">
+        <a href="mailto:rosavitoriafernandes@outlook.com">rosavitoriafernandes@outlook.com</a>
+      </p>
+      <p>
+        <img src="img/linkedin.png" alt="LinkedIn" width="20">
+        <a href="https://www.linkedin.com/in/rosa-vit%C3%B3ria30052007" target="_blank">LinkedIn – Rosa Vitória Silva</a>
+      </p>
+      <p>
+        <img src="img/git.png" alt="GitHub" width="20">
+        <a href="https://github.com/rosavitoria" target="_blank">GitHub – rosavitoria</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Feito com 💖 por Rosa Vitória</p>
+  </footer>
 </body>
 
 </html>
